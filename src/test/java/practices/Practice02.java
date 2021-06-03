@@ -53,10 +53,10 @@ public class Practice02 {
         lastNameBox.sendKeys("Aksu");
 
         WebElement passwordBox = driver.findElement(By.xpath("(//input[@name='password'])[3]"));
-        passwordBox.sendKeys("3234371.");
+        passwordBox.sendKeys("xxxxxx");
 
         WebElement passwordBox2 = driver.findElement(By.xpath("(//input[@name='passwordRetype'])[3]"));
-        passwordBox2.sendKeys("3234371.");
+        passwordBox2.sendKeys("xxxxxx");
 
         WebElement tikBox = driver.findElement(By.xpath("(//input[@name='data.press.terms.v1.blnAccepted'])[3]"));
         tikBox.click();
@@ -77,7 +77,7 @@ public class Practice02 {
         emailBox.sendKeys("mstaksu52@gmail.com");
 
         WebElement passwordBox = driver.findElement(By.xpath("(//input[@name='password'])[3]"));
-        passwordBox.sendKeys("3234371.");
+        passwordBox.sendKeys("xxxxxxxx");
         passwordBox.submit();
 
     }
